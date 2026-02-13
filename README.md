@@ -34,3 +34,38 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+
+#what is Next.js?
+-Next js is a react framework(React is a javascript libraray for creating UI), we could developed Frontend and Backend applications using this framework. It was developed by vercel organization.
+@front-end features
+->server-side rendering
+->file based routing
+->static site generation
+
+@backend topics
+->Database connection
+->model schemas
+->crud api's
+->defining routes
+->authentications
+
+@Prerequisites
+    HTML/CSS/JS
+        ↓
+    JSX Components/Modules/Props
+        ↓
+    Hooks/NPM/Events/Synthetic Events/Form Handling
+        ↓
+    API Integration (Next.js Ready)
+
+
+
+->Vercel is a frontend(web) cloud platform designed to help developers build, scale, and secure high-performance web applications with minimal configuration. 
+
+
+#Installation
+-> npx create-next-app@latest
+
+
+ 
