@@ -1,6 +1,6 @@
 import Image from "next/image";
 import styles from "./page.module.css";
-import Login from "./Login/page";
+// import Login from "./Login/page";
 
 export default function Home() {
   return (
@@ -63,7 +63,7 @@ export default function Home() {
     //     </div>
     //   </main>
     // </div>
-    // <div>welcome to next js</div>
-    <Login/>
+    <div>welcome to next js</div>
+    // <Login/>
   );
 }
