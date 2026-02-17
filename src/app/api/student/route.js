@@ -7,6 +7,9 @@ const connectoDb = async ()=>{
 
 connectoDb();
 
+
+
+
 export async function GET(request) {
-    return new NextResponse("Hello, Next.js API!");
+     return NextResponse.json({student:"all student data"})
 }
