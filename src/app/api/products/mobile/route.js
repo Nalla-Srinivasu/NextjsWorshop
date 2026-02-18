@@ -1,12 +1,12 @@
-import { DBconnection } from "@/app/utilies/config/db";
-import MobileModel from "@/app/utilies/models/mobile";
+import { DBconnection } from "@/app/utiles/config/db";
+import MobileModel from "@/app/utiles/models/mobile";
 import { NextResponse } from "next/server";
 
 const connectDB = async ()=>{
-    await DBconnection
+    await DBconnection()
 }
 
-connectDB
+connectDB()
 
 export async function GET() {
     const mobile_data = await MobileModel.find({})
@@ -23,11 +23,11 @@ export async function POST(request) {
     return NextResponse.json({success:"mobile data added successfully"})
 }
 
-export async function put(request) {
+export async function PUT(request) {
 
     const mobileId = await request.nextUrl.searchParams.get("id");
 
-    const {newTitle:title,newModel:model,newPrice:price} = await request.json()
+    const {newTitle:title,newModel:model,newPrice:price} = await request.json()    
 
     await MobileModel.findByIdAndUpdate(mobileId,{
         title,model,price
