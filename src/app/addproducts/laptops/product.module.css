@@ -1,0 +1,40 @@
+.mainContainer{
+    background-color: white;
+    height: 100vh;
+}
+
+.formsection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.forminput{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px;
+}
+
+.title{
+    color: black;
+    font-family: 'Roboto';
+    padding-right: 10px;
+}
+
+.inputitem{
+    background-color: transparent;
+    color: black;
+    font-family: 'Roboto';
+    border: 1px solid black;
+    border-radius: 4px;
+    height: 30px;
+    padding: 5px;
+}
+
+.btn{
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+}
