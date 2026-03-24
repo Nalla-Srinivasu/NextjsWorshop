@@ -40,7 +40,7 @@ const Page = () => {
                 </div>
                 <div className={styled.forminput}>
                     <h5 className={styled.title}>Price</h5>
-                    <input type="text" className={styled.inputitem} value={price} onChange={(e)=>setPrice(e.target.value)}/>
+                    <input type="text" className={styled.inputitem} value={price} onChange={(e)=>setPrice(e.target.value)}n/>
                 </div>
                 <button type="submit" className={styled.btn}>Add laptop</button>
             </form>
